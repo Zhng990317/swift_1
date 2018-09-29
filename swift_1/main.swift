@@ -7,6 +7,13 @@
 //
 
 import Foundation
-
-print("Hello, World!")
+var Number = 0
+var i = 0
+var Sum = 0
+while i < 100 {
+    Number = Number + 1
+    Sum += Number
+    i = i + 1
+}
+print(Sum)
 
